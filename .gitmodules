@@ -4,3 +4,6 @@
 [submodule "vendor/Twig"]
 	path = vendor/Twig
 	url = https://github.com/fabpot/Twig.git
+[submodule "vendor/Mandango"]
+	path = vendor/Mandango
+	url = https://github.com/mandango/mandango.git
