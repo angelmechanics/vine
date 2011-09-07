@@ -1,12 +1,10 @@
 Vine, a simple Project Management Tool
 =============================
 
-Vine is a simple Project Management Tool build with Silex and based on
-[Symfony2][1] components. Silex works with PHP 5.3.2 or later.
+Vine is a simple Project Management Tool build on Silex.
 
-## Installation
-
-...
+Silex is a PHP micro-framework based on the Symfony2 Components and based on [Symfony2][1]
+components. Silex works with PHP 5.3.2 or later.
 
 ## More Information
 
