@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__.'/../vendor/silex/autoload.php';
+require_once __DIR__ . '/../vendor/silex/autoload.php';
 
 use Silex\Application;
 use Silex\Extension\TwigExtension;
