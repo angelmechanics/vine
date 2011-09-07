@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/../vendor/silex/autoload.php';
+require_once __DIR__ . '/vendor/silex/autoload.php';
 
 use Silex\Application;
 use Silex\Extension\TwigExtension;
@@ -14,11 +14,11 @@ $app['autoloader']->registerNamespaces(array(
 
 // Register Twig Extensions
 $app->register(new TwigExtension(), array(
-  'twig.path'       => __DIR__.'/../views',
-  'twig.class_path' => __DIR__.'/../vendor/silex/vendor/twig/lib',
+  'twig.path'       => __DIR__.'/views',
+  'twig.class_path' => __DIR__.'/vendor/silex/vendor/twig/lib',
   'twig.options'    => array(
     'debug' => true,
-    'cache' => __DIR__.'/../cache',
+    'cache' => __DIR__.'/cache',
   ),
 ));
 
