@@ -12,7 +12,10 @@ $app['autoloader']->registerNamespaces(array(
   'Vine' => __DIR__,
 ));
 
-// Register Twig Extensions
+// Register Session Extension
+$app->register(new Silex\Extension\SessionExtension());
+
+// Register Twig Extension
 $app->register(new TwigExtension(), array(
   'twig.path'       => __DIR__.'/views',
   'twig.class_path' => __DIR__.'/vendor/silex/vendor/twig/lib',
